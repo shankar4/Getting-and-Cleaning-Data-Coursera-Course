@@ -1,0 +1,5 @@
+This is the demo with first four sets from both the test and train data sets. 
+The actual datasets used are included in the 'test' and 'train' folders.
+The WORD document has the console output with added comments so as to fully
+document each and every step. 
+The resulting tidy file with averages is included as 'myavg.txt'
