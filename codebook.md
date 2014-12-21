@@ -12,26 +12,26 @@ that columns 3-20 are the means of the subgroups of all individual 10299 sets th
 that subgroup of id and act combination. 
 
 Column names:
-1.	id – subject id
-2.	act – type of activity – the original digital codes are mapped to the following strings: 1 – WALK, 2 – GO_UP, 3 – GO-DOWN, 4 – SIT, 5- STAND, and 6 – SUPINE
-3.	ax.av – average for the body acceleration signal in the x direction
-4.	ay.av – average for the body acceleration signal in the y direction
-5.	az.av – average for the body acceleration signal in the z direction
-6.	ax.sd – standard deviation for the body acceleration signal in the x direction
-7.	ay.sd -- standard deviation for the body acceleration signal in the y direction
-8.	az.sd -- standard deviation for the body acceleration signal in the z direction
-9.	gx.av – average for the gravitational acceleration signal in the x direction
-10.	gy.av – average for the gravitational acceleration signal in the y direction
-11.	gz.av – average for the gravitational acceleration signal in the z direction
-12.	gx.sd – standard deviation for the gravitational acceleration signal in the x direction
-13.	gy.sd -- standard deviation for the gravitational acceleration signal in the y direction
-14.	gz.sd -- standard deviation for the gravitational acceleration signal in the z direction
-15.	rx.av – average for the rotational acceleration signal in the x direction
-16.	ry.av – average for the rotational l acceleration signal in the y direction
-17.	rz.av – average for the rotational  acceleration signal in the z direction
-18.	rx.sd – standard deviation for the rotational l acceleration signal in the x direction
-19.	ry.sd -- standard deviation for the rotational  acceleration signal in the y direction
-20.	rz.sd -- standard deviation for the rotational acceleration signal in the z direction
+1.	id – subject id;
+2.	act – type of activity – the original digital codes are mapped to the following strings: 1 – WALK, 2 – GO_UP, 3 – GO-DOWN, 4 – SIT, 5- STAND, and 6 – SUPINE;
+3.	ax.av – average for the body acceleration signal in the x direction;
+4.	ay.av – average for the body acceleration signal in the y direction;
+5.	az.av – average for the body acceleration signal in the z direction;
+6.	ax.sd – standard deviation for the body acceleration signal in the x direction;
+7.	ay.sd -- standard deviation for the body acceleration signal in the y direction;
+8.	az.sd -- standard deviation for the body acceleration signal in the z direction;
+9.	gx.av – average for the gravitational acceleration signal in the x direction;
+10.	gy.av – average for the gravitational acceleration signal in the y direction;
+11.	gz.av – average for the gravitational acceleration signal in the z direction;
+12.	gx.sd – standard deviation for the gravitational acceleration signal in the x direction;
+13.	gy.sd -- standard deviation for the gravitational acceleration signal in the y direction;
+14.	gz.sd -- standard deviation for the gravitational acceleration signal in the z direction;
+15.	rx.av – average for the rotational acceleration signal in the x direction;
+16.	ry.av – average for the rotational l acceleration signal in the y direction;
+17.	rz.av – average for the rotational  acceleration signal in the z direction;
+18.	rx.sd – standard deviation for the rotational l acceleration signal in the x direction;
+19.	ry.sd -- standard deviation for the rotational  acceleration signal in the y direction;
+20.	rz.sd -- standard deviation for the rotational acceleration signal in the z direction.
  
 The ‘tidydata.txt’ provides the averages for measured values in columns 3-20, with the first two 
 columns defining the subject id and type of actvity (a total of 180 combinations = 30 subjects x 6 
