@@ -9,7 +9,9 @@ as given below. The saved tidydata.txt file has 180 rows (one each for the combi
 subject id (1 to 30) and activity (six of them), and 20 columns (id, act, and 18 others that 
 are means of averages and standard deviations of underlying data, as desrcibed below). Note 
 that columns 3-20 are the means of the subgroups of all individual 10299 sets that belong to 
-that subgroup of id and act combination. 
+that subgroup of id and act combination. The original data had unit of m/sec^2 for the body and 
+gravitational acceleration signals and radiancs/sec for the rotational velocity. However, the
+features provided to us were normalized and bounded to be within [-1,1], and thus are unitless.
 
 Column names:
 1.	id – subject id;
@@ -26,12 +28,12 @@ Column names:
 12.	gx.sd – standard deviation for the gravitational acceleration signal in the x direction;
 13.	gy.sd -- standard deviation for the gravitational acceleration signal in the y direction;
 14.	gz.sd -- standard deviation for the gravitational acceleration signal in the z direction;
-15.	rx.av – average for the rotational acceleration signal in the x direction;
-16.	ry.av – average for the rotational l acceleration signal in the y direction;
-17.	rz.av – average for the rotational  acceleration signal in the z direction;
-18.	rx.sd – standard deviation for the rotational l acceleration signal in the x direction;
-19.	ry.sd -- standard deviation for the rotational  acceleration signal in the y direction;
-20.	rz.sd -- standard deviation for the rotational acceleration signal in the z direction.
+15.	rx.av – average for the rotational velocity signal in the x direction;
+16.	ry.av – average for the rotational velocity signal in the y direction;
+17.	rz.av – average for the rotational  velocity signal in the z direction;
+18.	rx.sd – standard deviation for the rotational velocity signal in the x direction;
+19.	ry.sd -- standard deviation for the rotational  velocity signal in the y direction;
+20.	rz.sd -- standard deviation for the rotational velocity signal in the z direction.
  
 The ‘tidydata.txt’ provides the averages for measured values in columns 3-20, with the first two 
 columns defining the subject id and type of actvity (a total of 180 combinations = 30 subjects x 6 
