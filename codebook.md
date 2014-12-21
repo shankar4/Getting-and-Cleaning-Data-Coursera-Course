@@ -8,7 +8,7 @@ while the activity codes of 1 to 6 are replaced with character strings that are 
 as given below. The saved tidydata.txt file has 180 rows (one each for the combination of 
 subject id (1 to 30) and activity (six of them), and 20 columns (id, act, and 18 others that 
 are means of averages and standard deviations of underlying data, as desrcibed below). Note 
-that columns 3-20 are the #means of the subgroups of all individual 10299 sets that belong to 
+that columns 3-20 are the means of the subgroups of all individual 10299 sets that belong to 
 that subgroup of id and act combination. 
 
 Column names:
